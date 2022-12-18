@@ -39,7 +39,6 @@ public class SXArray {
     }
     public static void main(String[] args) {
         var list = new ArrayList<>(Arrays.asList(1,4,7,9,8,6));
-//        list = nhapMangA();
         sortArrASC(list);
         System.out.println("Dãy số được sắp xếp tăng dần: " + list);
 
